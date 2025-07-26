@@ -16,7 +16,7 @@ if age_query >= int(18):
     # here we append all the info to the list if and only if this condition is met
     voter_info.append(f"Party: {party_query}")
     voter_info.append(f"Name: {name_query}")
-    voter_info.append(f"Age {age_query}")
+    voter_info.append(f"Age: {age_query}")
     print(f"Here is your information:\n{voter_info}")
 else:
     print(f"Sorry, you are not eligible for this process. You will be eligible in {minor_alert} years.")
